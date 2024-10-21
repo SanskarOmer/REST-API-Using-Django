@@ -8,4 +8,4 @@ class TestView(APIView):
             'username':'admin',
             'years_active':10
         }
-        return(data)
+        return Response(data)
