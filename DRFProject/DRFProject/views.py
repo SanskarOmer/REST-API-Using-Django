@@ -2,8 +2,8 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
-from .serializers import StudentSerializer
-from .models import Student
+from DRFapp.serializers import StudentSerializer
+from DRFapp.models import Student
 
 class TestView(APIView):
     def get(self, request, *args ,**kwargs):
